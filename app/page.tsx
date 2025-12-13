@@ -1,8 +1,31 @@
+import About from '@/components/About'
+import Benefits from '@/components/Benefits'
+import Category from '@/components/Category'
+import Copyright from '@/components/Copyright'
+import Cta from '@/components/Cta'
+import Footer from '@/components/Footer'
+import Header from '@/components/Header'
+import Hero from '@/components/Hero'
+import Latest from '@/components/Latest'
+import Topbar from '@/components/Topbar'
 import React from 'react'
 
 const page = () => {
   return (
-    <div className='flex justify-center items-center mt-100'>Is tailwind working</div>
+    <div className='w-full max-w-1140 mx-auto overflow-hidden bg-white'>
+      <Topbar/>
+      <Header/>
+      <Hero/>
+      <Latest/>
+      <Category/>
+      <Benefits/>
+      <About/>
+      <Cta/>
+      <Footer/>
+      <Copyright/>
+    {/* Temporary div */}
+    <div className='h-1000'></div>
+    </div>
   )
 }
 
