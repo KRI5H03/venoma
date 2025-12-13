@@ -12,7 +12,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='w-full max-w-1140 mx-auto overflow-hidden bg-white'>
+    <div className='w-full max-w-[1440px] mx-auto overflow-hidden bg-white'>
       <Topbar/>
       <Header/>
       <Hero/>

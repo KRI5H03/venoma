@@ -74,6 +74,10 @@ a.link-secondary{
   @apply w-[52px] h-[53px] flex items-center justify-center cursor-pointer;
 }
 
+.btn-outline{
+  @apply border border-grey-200;
+}
+
 .btn-accent{
   @apply bg-accent hover:bg-accent-hover transition-all duration-300;
 }
