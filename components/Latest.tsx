@@ -1,9 +1,25 @@
-import React from 'react'
+import Link from "next/link";
+import React from "react";
+import Slider from "./Slider";
 
 const Latest = () => {
   return (
-    <div>Latest</div>
-  )
-}
+    <section className="mt-24">
+      <div className="container mx-auto">
+        <div>
+          <h4 className="h4 w-max border-b-2">Explore Our Latest Collection</h4>
+          <Link
+            href="/"
+            className="link-primary text-accent2 hover:text-primary"
+          >
+            View All
+          </Link>
+        </div>
+        {/* slider */}
+        <Slider/>
+      </div>
+    </section>
+  );
+};
 
-export default Latest
+export default Latest;
