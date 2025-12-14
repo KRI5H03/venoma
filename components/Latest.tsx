@@ -6,7 +6,7 @@ const Latest = () => {
   return (
     <section className="mt-24">
       <div className="container mx-auto">
-        <div>
+        <div className="flex justify-between items-end mb-[72px]">
           <h4 className="h4 w-max border-b-2">Explore Our Latest Collection</h4>
           <Link
             href="/"
@@ -16,7 +16,7 @@ const Latest = () => {
           </Link>
         </div>
         {/* slider */}
-        <Slider/>
+        <Slider />
       </div>
     </section>
   );
