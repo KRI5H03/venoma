@@ -7,7 +7,7 @@ import Sidenav from "./Sidenav";
 
 const Header = () => {
   return (
-    <header className="xl:absolute max-w-[1440px] mx-auto left-0 right-0 ">
+    <header className="xl:absolute max-w-[1440px] mx-auto left-0 right-0 bg-grey-50">
       <div className="container mx-auto">
         <div className="flex justify-center items-center py-10 ">
           {/* Logo and sidenav */}
@@ -48,7 +48,7 @@ const Header = () => {
             </button>
             {/* car btn */}
             <button className="btn-icon btn-accent">
-              <FaCartShopping className="text-primary"/>
+              <FaCartShopping className="text-primary" />
             </button>
           </div>
         </div>
