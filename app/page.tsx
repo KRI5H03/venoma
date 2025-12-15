@@ -13,18 +13,19 @@ import React from 'react'
 const page = () => {
   return (
     <div className='w-full max-w-[1440px] mx-auto overflow-hidden bg-white'>
-      <Topbar/>
-      <Header/>
-      <Hero/>
-      <Latest/>
-      <Category/>
-      <Benefits/>
-      <About/>
-      <Cta/>
-      <Footer/>
-      <Copyright/>
-    {/* Temporary div */}
-    <div className='h-1000'></div>
+
+      <Topbar />
+      <Header />
+      <Hero />
+      <Latest />
+      <Category />
+      <Benefits />
+      <About />
+      <Cta />
+      <Footer />
+      <Copyright />
+      {/* temporary div */}
+      {/* <div className='h-1000'></div> */}
     </div>
   )
 }
