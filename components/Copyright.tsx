@@ -21,7 +21,7 @@ const Copyright = () => {
             </a>
           </li>
         </ul>
-        <p>&copy; 2025 Venoma. All rights reserved.</p>
+        <p>© 2025 Venoma. All rights reserved.</p>
       </div>
     </section>
   );
