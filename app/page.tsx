@@ -25,9 +25,6 @@ const page = () => {
       <Copyright />
       {/* temporary div */}
       {/* <div className='h-1000'></div> */}
-      <div>
-        checking whether there is a change if i push the code after deploying
-      </div>
     </div>
   );
 };
